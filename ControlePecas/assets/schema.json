@@ -1,0 +1,217 @@
+{
+  "pecas": [
+    "Peças",
+    [
+      [
+        "codigo",
+        "Código PN",
+        "text"
+      ],
+      [
+        "descricao",
+        "Descrição",
+        "text"
+      ],
+      [
+        "categoria_id",
+        "ID da categoria",
+        "number"
+      ],
+      [
+        "fornecedor_id",
+        "ID do fornecedor",
+        "number"
+      ],
+      [
+        "preco",
+        "Preço unitário (R$)",
+        "number"
+      ],
+      [
+        "quantidade",
+        "Quantidade",
+        "number"
+      ]
+    ]
+  ],
+  "clientes": [
+    "Clientes",
+    [
+      [
+        "nome",
+        "Nome",
+        "text"
+      ],
+      [
+        "documento",
+        "CPF ou CNPJ (somente números)",
+        "text"
+      ],
+      [
+        "email",
+        "E-mail",
+        "email"
+      ],
+      [
+        "telefone",
+        "Telefone com DDD",
+        "tel"
+      ],
+      [
+        "cidade",
+        "Cidade",
+        "text"
+      ]
+    ]
+  ],
+  "fornecedores": [
+    "Fornecedores",
+    [
+      [
+        "razao_social",
+        "Razão social",
+        "text"
+      ],
+      [
+        "cnpj",
+        "CNPJ (somente números)",
+        "text"
+      ],
+      [
+        "email",
+        "E-mail",
+        "email"
+      ],
+      [
+        "telefone",
+        "Telefone com DDD",
+        "tel"
+      ],
+      [
+        "cidade",
+        "Cidade",
+        "text"
+      ]
+    ]
+  ],
+  "categorias": [
+    "Categorias",
+    [
+      [
+        "nome",
+        "Nome",
+        "text"
+      ],
+      [
+        "descricao",
+        "Descrição",
+        "text"
+      ],
+      [
+        "setor",
+        "Setor",
+        "text"
+      ],
+      [
+        "localizacao",
+        "Localização",
+        "text"
+      ],
+      [
+        "estoque_minimo",
+        "Estoque mínimo",
+        "number"
+      ]
+    ]
+  ],
+  "vendas": [
+    "Vendas",
+    [
+      [
+        "cliente_id",
+        "ID do cliente",
+        "number"
+      ],
+      [
+        "usuario_id",
+        "ID do vendedor",
+        "number"
+      ],
+      [
+        "data",
+        "Data da venda",
+        "date"
+      ],
+      [
+        "pagamento",
+        "Forma de pagamento",
+        "text"
+      ],
+      [
+        "desconto",
+        "Desconto (%)",
+        "number"
+      ]
+    ]
+  ],
+  "itens_venda": [
+    "Itens da venda",
+    [
+      [
+        "venda_id",
+        "ID da venda",
+        "number"
+      ],
+      [
+        "peca_id",
+        "ID da peça",
+        "number"
+      ],
+      [
+        "quantidade",
+        "Quantidade",
+        "number"
+      ],
+      [
+        "preco",
+        "Preço unitário (R$)",
+        "number"
+      ],
+      [
+        "desconto",
+        "Desconto do item (%)",
+        "number"
+      ]
+    ]
+  ],
+  "usuarios": [
+    "Usuários",
+    [
+      [
+        "nome",
+        "Nome",
+        "text"
+      ],
+      [
+        "email",
+        "E-mail",
+        "email"
+      ],
+      [
+        "perfil",
+        "Perfil (vendedor ou administrador)",
+        "text"
+      ],
+      [
+        "telefone",
+        "Telefone com DDD",
+        "tel"
+      ],
+      [
+        "ativo",
+        "Ativo (sim ou não)",
+        "text"
+      ]
+    ]
+  ]
+}
